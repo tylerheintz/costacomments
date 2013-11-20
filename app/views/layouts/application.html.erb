@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Costacomplaints</title>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+
+</head>
+<body >
+
+<div id="topBar">
+  <h1 style="color:black;">CostaComments.com</h1>
+  <h1 class="hugeText" style="font-family:Comic Sans MS, cursive, sans-serif;">What's Wrong With Costa?</h1>
+  <strong><p class="mediumText">Let Us Know! If administrators see these compalaints...things will change!</br>This site is run by students...not administators!</br>All posts are completely anonymous...no one will ever no who posted what!</p></strong>
+  <a href="/posts">
+    <div id="homeButton">
+      <img src="http://1.bp.blogspot.com/-e_pwjbqTC-U/UBqN4PBMfdI/AAAAAAAAAcc/qEuARW6QREg/s1600/mc+letters.jpg" style="border-radius:20px;">
+      <strong><p style="margin-top:-.25em;color:gold;font-size:1.2em">Home</p></strong>
+    </div>
+  </a>
+  <div id="postButton">
+  <h1 style="text-decoration:none"><%= link_to 'New Post!', new_post_path %></h1>
+</div>
+</div>
+
+<%= yield %>
+
+</body>
+</html>

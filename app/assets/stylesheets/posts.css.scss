@@ -1,0 +1,79 @@
+// Place all the styles related to the Posts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.hugeText{
+	color:gold;
+	weight:heavy;
+	font-size:3em;
+}
+
+#topBar{
+	background-image:url(http://static2.grsites.com/archive/textures/green/green085.jpg);
+	border:solid gold 5px;
+	text-align:center;
+	margin-top:-.5em;
+	border-radius:12px 12px 0px 0px;
+}
+
+.mediumText{
+	font-size:1.2em;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	color:orange;
+}
+
+#homeButton{
+	float:left;
+	margin-top:-13.23em;
+	height:12.5em;
+	margin-left:3em;
+}
+
+#postButton{
+	background-color:orange;
+	border:solid gold 3px;
+	border-radius:12px;
+	width:12em;
+	text-align:center;
+	float:right;
+	margin-top:-8.8em;
+	margin-right:10em;
+}
+
+.postSection{
+	border:solid gold 5px;
+	border-top:solid gold 1px;
+	background-image:url(http://static2.grsites.com/archive/textures/lgren/lgren077.jpg);
+	border-radius:0px 0px 12px 12px;
+}
+
+.postBar{
+	margin:1em 3em 1em 3em;
+	height:5em;
+	background-color:white;
+	border-radius:12px;
+
+}
+
+.categoryTag{
+	float:right;
+	margin-right:2em;
+	margin-left:-2em;
+	word-wrap: break-word;
+	text-align:left;
+}
+
+.postContent{
+	float:left;
+	margin:.5em 1em .5em 1em;
+	padding-top:-3em;
+	width:79em;
+	word-wrap: break-word;
+}
+
+span{
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	font-size:1.2em;
+}
+
+
+
